@@ -6,7 +6,9 @@ public class QuotationTest {
 		Quotation mioCodice;
 		mioCodice = new Quotation();
 		
-		System.out.println("So programmare in Java!");
+		mioCodice.quote = "So programmare in Java!";
+		
+		mioCodice.display();
 
 	}
 
